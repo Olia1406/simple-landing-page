@@ -11,9 +11,6 @@ jQuery(function($){
     
     });
     });
-// це ^ я просто скопіювала з нету, і практично нічого не міняла, це мабуть якась універсальна штука
-//  для повільного переходу по всіх ссилках (щоправда я тут майже нічо не зрозуміла):\)
-
 
 
     $('.a2').click( function(){
@@ -30,26 +27,3 @@ jQuery(function($){
 
 
 
-// $(document).ready(function(){
-//     $("#page1").on("click","a", function (event) {
-//         event.preventDefault();
-//         let id  = $(this).attr('href'),
-//             top = $(id).offset().top;
-//         $('body,html').animate({scrollTop: top}, 1000);
-//         $('.cloud4').animate({
-//             top: '+=400px'
-//         },1000)
-//     });
-//     $("#page2").on("click","a", function (event) {
-//         event.preventDefault();
-//         let id  = $(this).attr('href'),
-//             top = $(id).offset().top;
-//         $('body,html').animate({scrollTop: top}, 1000);
-//         $('.cloud4').animate({
-//             top: '-=400px'
-//         },1000)
-//     });
-
-// });
-
-//    
